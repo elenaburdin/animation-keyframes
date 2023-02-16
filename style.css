@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+
+.box-1 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    background: #f72585;
+    animation: animate1 2s forwards ease-in-out;
+}
+
+.box-2 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background: #7209b7;
+    animation: animate2 1s forwards ease-in;
+}
+
+.box-3 {
+    width: 150px;
+    height: 150px;
+    background: #3a0ca3;
+    position: relative;
+    animation: animate3 3s forwards ease-out;
+}
+
+.box-4 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background: #4361ee;
+    animation: animate4 1s forwards ease-in;
+}
+
+.box-5 {
+    width: 150px;
+    height: 150px;
+    background: #4cc9f0;
+    animation: animate5 2s forwards ease-in-out;
+}
+
+@keyframes animate1 {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 500px;
+        border-radius: 50%;
+        background: #fb97c4;
+    }
+}
+
+@keyframes animate2 {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 200px;
+        border-radius: 50% 0 0 0;
+        background: #a543e6;
+    }
+}
+
+
+@keyframes animate3 {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 250px;
+        border-radius: 50% 0 50% 0;
+        background: #6933e8;
+    }
+}
+
+@keyframes animate4 {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 280px;
+        border-radius: 50% 0 50% 50%;
+        background: rgb(145, 98, 255);
+    }
+}
+
+@keyframes animate5 {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 300px;
+        border-radius: 50%;
+        background: #82defa;
+    }
+}
